@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "vite-vue3-scopeeffect": "file:",
     "vue": "^3.5.13"
   },
   "devDependencies": {
