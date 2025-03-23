@@ -7,6 +7,6 @@
     </div>
 </template>
 <script setup>
-import { useCounter } from '../hooks/useCounter';
-const state = useCounter()
+import { useCounterState } from '../hooks/useCounter';
+const state = useCounterState();
 </script>

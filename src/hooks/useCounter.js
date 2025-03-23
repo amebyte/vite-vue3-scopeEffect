@@ -1,4 +1,5 @@
 import { ref, watch } from "vue"
+import { createGlobalState } from './createGlobalState';
 
 export function useCounter() {
     // 定义计数器
@@ -26,3 +27,5 @@ export function useCounter() {
       decrement
     }
 }
+
+export const useCounterState = createGlobalState(useCounter)
